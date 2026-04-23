@@ -1,6 +1,6 @@
 package model;
 
-import javax.imageio.ImageTranscoder;
+
 
 public class Studente extends Utente{
 
@@ -9,7 +9,6 @@ public class Studente extends Utente{
 
     public Studente(String nome, String cognome, String email, String password, String username) {
         super(nome, cognome, email, password, username);
-
         this.matricola=matricola;
     }
 

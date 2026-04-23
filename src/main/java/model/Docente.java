@@ -9,7 +9,6 @@ public class Docente extends Utente {
         this.is_coordinatore = is_coordinatore;
     }
 
-    public valuta_tesi()
 
 
 }
