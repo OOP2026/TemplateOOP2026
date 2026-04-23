@@ -3,15 +3,26 @@ package model;
 import java.util.ArrayList;
 
 public class Utente {
-    private String login;
+    private String username;
     private String password;
+    private String email;
+    private String nome;
+    private String cognome;
 
-    public Utente(String login, String password) {
-        this.login = login;
+    public Utente(String nome, String cognome, String email, String password, String username) {
+        this.username = username;
         this.password = password;
+        this.email = email;
+        this.nome = nome;
+        this.cognome = cognome;
     }
+
 
     public boolean login(String login, String password) {
-        return ( login.equals(this.login) && password.equals(this.password));
+        return ( login.equals(this.username) && password.equals(this.username));
     }
+
+
+
+
 }
