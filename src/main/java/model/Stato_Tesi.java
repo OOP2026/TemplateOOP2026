@@ -1,7 +1,8 @@
 package model;
 
-public enum Stato {
+public enum Stato_Tesi {
     In_attesa,
     Approvata,
     Rifiutata;
-}
+    }
+
