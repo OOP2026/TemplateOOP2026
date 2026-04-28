@@ -3,11 +3,11 @@ import java.util.*;
 import java.time.LocalDateTime;
 
 public class Seduta {
-    LocalDateTime data_ora;
-    String sede;
-    int numero_posti;
-    List<Tesi> prenotazioni;
-    Docente coordinatore;
+    private LocalDateTime data_ora;
+    private String sede;
+    private int numero_posti;
+    private List<Tesi> prenotazioni;
+    private Docente coordinatore;
 
     public Seduta(LocalDateTime data_ora, String sede,int numero_posti, Docente coordinatore) {
         this.data_ora = data_ora;

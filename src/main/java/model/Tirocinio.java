@@ -13,7 +13,7 @@ public abstract class Tirocinio {
     private Docente docente;
     private List<Richiesta> richieste;
 
-    public Tirocinio(String nome, int durata, LocalDateTime data_inizio, List<String> argomenti, int n_posti, int n_cfu, Docente docente) {
+    public Tirocinio(String nome, int durata, LocalDateTime data_inizio, int n_posti, int n_cfu, Docente docente) {
         this.nome = nome;
         this.durata = durata;
         this.data_inizio = data_inizio;
