@@ -17,7 +17,6 @@ public abstract class Tirocinio {
         this.nome = nome;
         this.durata = durata;
         this.data_inizio = data_inizio;
-        // Se la lista passata è null, inizializza una lista vuota per evitare NullPointerException
         this.argomenti = new ArrayList<String>();
         this.n_posti = n_posti;
         this.n_cfu = n_cfu;

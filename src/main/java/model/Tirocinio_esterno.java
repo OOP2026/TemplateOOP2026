@@ -8,8 +8,8 @@ public class Tirocinio_esterno extends Tirocinio{
     private String referente_aziendale;
 
 
-    public Tirocinio_esterno(String nome, int durata, LocalDateTime data_inizio, List<String> argomenti, int n_posti, int n_cfu, String azienda, String referente_aziendale) {
-        super(nome, durata, data_inizio, argomenti, n_posti, n_cfu);
+    public Tirocinio_esterno(String nome, int durata, LocalDateTime data_inizio, List<String> argomenti, int n_posti, int n_cfu, String azienda, String referente_aziendale, Docente docente) {
+        super(nome, durata, data_inizio, argomenti, n_posti, n_cfu, docente);
         this.azienda = azienda;
         this.referente_aziendale = referente_aziendale;
     }
